@@ -2,5 +2,5 @@
 ### Dépo de Tom GIMENEZ en T04
 
 ## Liste des exercices :
-[todo_list.py](./todo_list.py) Liste de tâches simple (a, b et c)
+[todo_list.py](./simple_todo_list.py) Liste de tâches simple (a, b et c)
 
