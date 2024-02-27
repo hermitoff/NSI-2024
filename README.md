@@ -7,3 +7,5 @@
 [priority_todo_list.py](./List_of_tasks/priority_todo_list.py) Liste des tâches avec priorité (a, b, c, d et e)
 
 [complementary_1.py](./Complementary_exercices/complementary_1.py) Exercice complémentaire (a, b, c)
+
+[complementary_2.py](./Complementary_exercices/complementary_2.py) Exercice complémentaire (a, b)
