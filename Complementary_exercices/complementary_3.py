@@ -17,7 +17,7 @@ v = faire_creux(l)
 print(v)
 
 
-# Coder un encodage analogue pour les matrices, mais cette fois sous forme d'un dictionnaire : m = [[0,4],[5,6]] sera représenté par {(0,1):4, (1,0):5,(1,1):6}
+# b) Coder un encodage analogue pour les matrices, mais cette fois sous forme d'un dictionnaire : m = [[0,4],[5,6]] sera représenté par {(0,1):4, (1,0):5,(1,1):6}
 
 def matrix_to_dict(matrix):
     result = {}
