@@ -16,6 +16,8 @@ Dépos de Tom GIMENEZ en T04
 
 [complementary_3.py](./Complementary_exercices/complementary_3.py) Exercice complémentaire 3 (a, b)
 
+[complementary_4.py](./Complementary_exercices/complementary_4.py) Exercice complémentaire 4
+
 ## Découverte de la Programmation Orientée Objet en Python
 
 [questions.md](./Object_Programming/questions.md) TP de programmation objet
