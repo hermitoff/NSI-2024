@@ -2,8 +2,6 @@
 from animalclass import Animal
 from animalerieclass import Menagerie
 
-
-
 #Création d'une ménagerie
 zoo = Menagerie()
 zoo.presenter()
