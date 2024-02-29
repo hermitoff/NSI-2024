@@ -24,3 +24,16 @@ leChenil.arriver(perdita)
 
 #Le chenil présente ses pensionnaires
 leChenil.presenter()
+
+# Test
+
+print("\n--- Test ---\n")
+
+ouaf = Chien("méchant","blanc","ahouu",14)
+leChenil.arriver(ouaf)
+#ouaf.sePresenter()
+#ouaf.setTaille(5)
+#leChenil.getEspece(ouaf)
+#ouaf.dormir()
+#ouaf.manger()
+#ouaf.parler("UwU")
