@@ -22,8 +22,8 @@ Saucisse fait 10cm, mais initiallement elle a été définie à 9cm à la ligne 
 Comme conclusion je dirais que le module chienclass modifie la taille de l'élément comme le confirme la ligne 23, ou si la taille est en dessous de 10 elle est définie à 10.
 
 ## Question 8
-- Oui, on peut modifier la race du chien après l'avoir crée comme le permet son module `chienclass` avec la méthode setTaille.
-- Non pas avec n'importe quel valeur, au minimum 10.
+- Oui, on peut modifier la race du chien après l'avoir crée comme le permet son module `chienclass` avec la méthode `setTaille`.
+- Non pas avec n'importe quel valeur, au minimum 10 car une condition modifie la valeur pour l'obligée à être au dessus de 10.
 - J'ai pu tester avec `ouaf.setTaille(5)` et `ouaf.sePresenter()` pour afficher.
 
 Voici le résultat :
@@ -69,9 +69,59 @@ Console :
 UwU  !! UwU  !! UwU  !! UwU  !!
 ```
 
-#Question 13
-Oui ils en ont une. L'espèce des chiens est indiqué dans le dernier string lors de leur ajout.
+## Question 13
+Oui ils en ont une. L'espèce des chiens est indiqué dans le dernier string lors de leurs ajouts.
 ```python
 saucisse = Chien("Saucisse","roux","teckel",9)
 ```
 Ici la race est `teckel`.
+
+## Question 14
+- [x] Je l'ai nommée "spa" et ajouter `merlin`, `louna`, `kosco` et `gulli`.
+Les modules sont compatibles entre eux, quand j'éxécute le programme :
+```
+*****  PRESENTATION DE LA MENAGERIE  *****
+Je me presente :  Merlin   chat
+Je me presente :  Louna   Chat
+Je me presente :  Chien   Kusco
+Comme je suis CHIEN, je montre que je peux etre mechant
+Attention je suis un  Chien Bleu  et je mesure  35  cms
+Je me presente :  Chien   Gulli
+Comme je suis CHIEN, je montre que je peux etre mechant
+Attention je suis un  Cocker  et je mesure  20  cms
+```
+Lorsque les animaux se présentent, tout est normal cependant les animaux ajoutés avec le module Chien ajoutent le texte :
+```
+Comme je suis CHIEN, je montre que je peux etre mechant
+```
+
+## Question 15
+J'ai réaliser le module [oiseauclass](./oiseauclass.py) assigné à ce fichier pour le test [PPO3.py](./PPO3.py).
+
+Voici la sortie de la console :
+```
+*****  PRESENTATION DE LA MENAGERIE  *****
+Je me presente :  Pew pew   Wazo
+     L'oiseau l'envole vers d'autre cieux !
+```
+
+## Question 16 et 17
+En cas de besoin, voici le [code source](./PPO3.py).
+```
+*****  PRESENTATION DE LA MENAGERIE  *****
+Je me presente :  Pew pew   Wazo
+     L'oiseau s'envole vers d'autre cieux !
+La ménagerie ne possède aucun animal !
+
+Arrivée de pewpew et de pawpaw
+
+*****  PRESENTATION DE LA MENAGERIE  *****
+Je me presente :  Pew pew   Wazo
+Je me presente :  Paw Paw   Wazo
+
+pewpew part et puwpuw arrive
+
+*****  PRESENTATION DE LA MENAGERIE  *****
+Je me presente :  Paw Paw   Wazo
+Je me presente :  Puw Puw   Wazo
+```
