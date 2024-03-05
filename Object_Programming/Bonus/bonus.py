@@ -1,28 +1,30 @@
 from lievreClass import Lievre
+from lievreTortueClass import LievreTortue
 import time
+import random
 
 tortue = Lievre()
-lievre = Lievre()
+lievre = LievreTortue(tortue.turtle.position())
 
-print("\n\n------\n\n")
-
-print("Vers quelles coordonnées x aller ?\n")
-cordsx = float(input("> "))
-print("Vers quelles coordonnées y aller ?\n")
-cordsy = float(input("> "))
+#print("Vers quelles coordonnées x aller ?\n")
+#cordsx = float(input("> "))
+#print("Vers quelles coordonnées y aller ?\n")
+#cordsy = float(input("> "))
 
 #print(cordsx, cordsy)
 
-# Utilisez la méthode aller_vers de l'objet Lievre
-# Exemple
-for i in range(10):
-    tortue.aller_vers(cordsx, cordsy)
 
-print("Position de la tortue")
-print(tortue.turtle.pos())
+# c)
+def turtle_move():
+    tortue.aller_vers(random.randint(1,20), random.randint(1,20))
+    print("DEBUG", tortue.turtle.pos())
 
-# Code pour la seconde tortue qui va la suivre
-lievre
+def lievre_move():
+    lievre.forward(random.randint(1,5))
 
-# Garder la fenêtre ouverte 5 secondes pour voir le résultat
-time.sleep(5)
+#for i in range(random.randint(10,30)):
+
+# Exécuter les deux fonctions pour réplacer les elements sur le GUI
+while True:
+    turtle_move()
+    lievre_move()
