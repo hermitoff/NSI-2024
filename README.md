@@ -1,6 +1,12 @@
 # NSI-2024
 Dépos de Tom GIMENEZ en T04
 
+> [!WARNING]
+> Pour les fichiers `.ipynb`, il est vivement conseillé de les télécharger ou de cloner le dépôt GitHub pour les visionner avec un IDE compatible, ou alors avec Basthon pour les vétéran.
+> ```bash
+> git clone https://github.com/hermitoff/NSI-2024
+> ```
+
 # Liste des exercices :
 
 ## Todo list
@@ -21,3 +27,7 @@ Dépos de Tom GIMENEZ en T04
 ## Découverte de la Programmation Orientée Objet en Python
 
 [questions.md](./Object_Programming/questions.md) TP de programmation objet
+
+# Mise au point des programmes. Gestion des bugs
+
+[exercices test.ipynb](./Bugs_Management/exercices%20test.ipynb) Exercices sur la gestion de bug
