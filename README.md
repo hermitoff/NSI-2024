@@ -28,6 +28,11 @@ Dépos de Tom GIMENEZ en T04
 
 [questions.md](./Object_Programming/questions.md) TP de programmation objet
 
-# Mise au point des programmes. Gestion des bugs
+[bonus.md](./Object_Programming/Bonus/bonus.md) Exercice Bonus
+
+## Exercice PPO
+[exercices.ipynb](./PPO/exercices.ipynb) Exercice PPO
+
+## Mise au point des programmes. Gestion des bugs
 
 [exercices test.ipynb](./Bugs_Management/exercices%20test.ipynb) Exercices sur la gestion de bug
