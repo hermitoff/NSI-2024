@@ -15,7 +15,6 @@ Dépos de Tom GIMENEZ en T04
 [priority_todo_list.py](./List_of_tasks/priority_todo_list.py) Liste des tâches avec priorité (a, b, c, d et e)
 
 ## Exercices complémentaires
-
 [complementary_1.py](./Complementary_exercices/complementary_1.py) Exercice complémentaire 1 (a, b, c)
 
 [complementary_2.py](./Complementary_exercices/complementary_2.py) Exercice complémentaire 2 (a, b)
@@ -25,9 +24,15 @@ Dépos de Tom GIMENEZ en T04
 [complementary_4.py](./Complementary_exercices/complementary_4.py) Exercice complémentaire 4
 
 ## Découverte de la Programmation Orientée Objet en Python
-
 [questions.md](./Object_Programming/questions.md) TP de programmation objet
 
-# Mise au point des programmes. Gestion des bugs
+[bonus.md](./Object_Programming/Bonus/bonus.md) Exercice Bonus
 
+## Exercice PPO
+[exercices.ipynb](./PPO/exercices.ipynb) Exercice PPO
+
+## Mise au point des programmes. Gestion des bugs
 [exercices test.ipynb](./Bugs_Management/exercices%20test.ipynb) Exercices sur la gestion de bug
+
+## Récursivité
+[cours_recursivite.ipynb](./Recursivity/cours_recursivite.ipynb) Introduction à la récursivité
