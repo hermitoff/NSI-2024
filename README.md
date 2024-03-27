@@ -39,3 +39,5 @@ Dépos de Tom GIMENEZ en T04
 
 ## Structures de données, interface et implémentation.
 [implementation pile file POO.ipynb](./Data_structures_interface_implementation/implementation%20pile%20file%20POO.ipynb) Implémentation Pile & File
+
+[piles files autres implémentations.ipynb](./Data_structures_interface_implementation/piles%20files%20autres%20implémentations.ipynb) Activités sur les piles et files
