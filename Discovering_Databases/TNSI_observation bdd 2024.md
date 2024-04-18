@@ -55,3 +55,30 @@ Il s'agit d'un autre système de sécurité qui permet de vérifier que toutes l
 5. Vrai
 
 ## Q12
+1. Requête facturation
+
+   Dans la première ligne on importe de la base CLIENT NumCli, NomCli et on fait la somme de la quantité par le prix de production, tout sa dans la variable Montant_Achat.
+   2ème ligne : Depuis la base CLIENT, COMMANDE, CONTENIR et PRODUIT
+   3ème ligne : La commande `WHERE` permet de filtrer...
+
+   Globalement ces requêtes SQL permettent d'obtenir le montant total des achats effectué par les clients
+
+2. Requête 1
+   
+   Premièrement, on obtient les data des Tables et on les affiches, ici on obtient les numéro de commandes et le nom du client associé.
+
+3. Requête 2
+   
+   On obtient les data, mais cette fois on peux imaginer que cette requête est utile pour les employés qui ont besoin du prix de fabrication des produits car à la fin de la ligne 3 on peut voir que le prix de production est importé.
+
+4. Requête 3
+   
+   Cette requête permet d'obtenir les date des commandes qui ont été effectué dans le magasin.
+
+5. Requête 4
+   
+   Cette requête permet d'obtenir les numéros de clients et leur noms ainsi que cette fois le montant de leur achat et dans une nouvelle colonne le montant de leur remise.
+
+6. Requête 5
+   
+   Cette requête permet d'obtenir une liste des identifiants de clients `(NumCli)` qui ont passé au moins une commande, en se basant sur les données de la table `COMMANDE` et en les associant aux clients de la table `CLIENT` par l'intermédiaire de la jointure.
