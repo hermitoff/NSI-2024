@@ -37,10 +37,13 @@ Dépos de Tom GIMENEZ en T04
 ## Récursivité
 [cours_recursivite.ipynb](./Recursivity/cours_recursivite.ipynb) Introduction à la récursivité
 
-## Structures de données, interface et implémentation.
+## Structures de données, interface et implémentation
 [implementation pile file POO.ipynb](./Data_structures_interface_implementation/implementation%20pile%20file%20POO.ipynb) Implémentation Pile & File
 
 [piles files autres implémentations.ipynb](./Data_structures_interface_implementation/piles%20files%20autres%20implémentations.ipynb) Activités sur les piles et files
 
 ## Découverte des bases de données
 [TNSI_observation bdd 2024.md](./Discovering_Databases/TNSI_observation%20bdd%202024.md)
+
+## Langage SQL : requêtes d’interrogation et de mise à jour d’une base de données
+[README.md](./SQL/README.md)
