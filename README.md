@@ -47,3 +47,6 @@ Dépos de Tom GIMENEZ en T04
 
 ## Langage SQL : requêtes d’interrogation et de mise à jour d’une base de données
 [README.md](./SQL/README.md)
+
+## Modèle relationnel : relation, attribut, domaine, clef primaire, clef étrangère, schéma relationnel. Base de données relationnelle. Système de gestion de bases de données relationnelles.
+[Modèle relationnel.md](./SQL/Relational_Model/Modèle%20relationnel.md)
