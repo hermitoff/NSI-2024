@@ -1,5 +1,5 @@
 # NSI-2024
-Dépos de Tom GIMENEZ en T04
+Dépos de Élodie GIMENEZ en T04
 
 > [!WARNING]
 > Pour les fichiers `.ipynb`, il est vivement conseillé de les télécharger ou de cloner le dépôt GitHub pour les visionner avec un IDE compatible, ou alors avec Basthon pour les vétéran.
