@@ -13,19 +13,21 @@ def ask_question(node):
     else:
         return node.question
 
-def update_tree(node, user_animal, difference):
+def update_tree(node, user_animal):
     new_question = input("Quelle question permet de différencier votre animal de celui proposé ? ")
+    user_response = input(f"Pour votre animal, la réponse à cette question est-elle 'oui' ou 'non' ? ").strip().lower()
+    
     animal_leaf = Node(animal=node.animal)
     user_leaf = Node(animal=user_animal)
     
-    if input(f"Pour votre animal, la réponse à cette question est-elle 'oui' ou 'non' ? ").strip().lower() == 'oui':
-        node.question = new_question
+    if user_response == 'oui':
         node.yes = user_leaf
         node.no = animal_leaf
     else:
-        node.question = new_question
         node.yes = animal_leaf
         node.no = user_leaf
+    
+    node.question = new_question
     node.animal = None
 
 def traverse_tree(node):
@@ -45,8 +47,7 @@ def play_game(root):
             print("Gagné !")
         else:
             user_animal = input("Quel est le nom de votre animal ? ")
-            difference = input(f"Quelle est la différence entre {current_node.animal} et {user_animal} ? ")
-            update_tree(current_node, user_animal, difference)
+            update_tree(current_node, user_animal)
         
         if input("Voulez-vous jouer encore ? (oui/non) ").strip().lower() != 'oui':
             break
@@ -78,16 +79,16 @@ def load_tree(file_name):
         data = json.load(f)
         return deserialize(data)
 
-# Initial tree
-root = Node(question="Est-ce que c'est un mammifère ?")
-root.yes = Node(animal="chien")
-root.no = Node(animal="poisson")
+# Load the tree (if available), or create a new one
+try:
+    root = load_tree('animal_tree.json')
+except FileNotFoundError:
+    root = Node(question="Est-ce que c'est un mammifère ?")
+    root.yes = Node(animal="chien")
+    root.no = Node(animal="poisson")
 
 # Play the game
 play_game(root)
 
 # Save the tree
 save_tree(root, 'animal_tree.json')
-
-# Load the tree (for future use)
-# root = load_tree('animal_tree.json')
