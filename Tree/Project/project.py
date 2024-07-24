@@ -1,3 +1,7 @@
+# !!
+# Groupe de Elodie, Kenzo et Calista
+# !!
+
 import json
 
 class Node:
