@@ -51,5 +51,8 @@ Dépos de Élodie GIMENEZ en T04
 ## Modèle relationnel : relation, attribut, domaine, clef primaire, clef étrangère, schéma relationnel. Base de données relationnelle. Système de gestion de bases de données relationnelles.
 [Modèle relationnel.md](./SQL/Relational_Model/Modèle%20relationnel.md)
 
-## Arbres : structures hiérarchiques. Arbres binaires : noeuds, racines, feuilles, sous-arbres gauches, sous-arbres droits.
+## Projet Devinette
 [project.py](./Tree/Project/project.py)
+
+## Algorithmes sur les arbres binaires et sur les arbres binaires de recherche.
+[Activites_AlgoArbres.ipynb](./Tree/Activites_AlgoArbres.ipynb)
