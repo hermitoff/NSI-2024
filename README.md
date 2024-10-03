@@ -55,4 +55,10 @@ Dépos de Élodie GIMENEZ en T04
 [project.py](./Tree/Project/project.py)
 
 ## Algorithmes sur les arbres binaires et sur les arbres binaires de recherche.
-[Activites_AlgoArbres.ipynb](./Tree/Activites_AlgoArbres.ipynb)
+[Activites_AlgoArbres.ipynb](./Tree/Binary_trees/Activites_AlgoArbres.ipynb)
+
+## Graphes : structures relationnelles. Sommets, arcs, arêtes, graphes orientés ou non orientés.
+[Activites_Graphes.ipynb](./Tree/Graphs_and_relational_structures/Activites_Graphes.ipynb)
+
+## Arbres : structures hiérarchiques. Arbres binaires : noeuds, racines, feuilles, sous-arbres gauches, sous-arbres droits.
+[Activités_Arbres.ipynb](./Tree/Hierarchical_tree_structures/Activités_Arbres.ipynb)
