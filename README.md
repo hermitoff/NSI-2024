@@ -62,3 +62,7 @@ Dépos de Élodie GIMENEZ en T04
 
 ## Arbres : structures hiérarchiques. Arbres binaires : noeuds, racines, feuilles, sous-arbres gauches, sous-arbres droits.
 [Activités_Arbres.ipynb](./Tree/Hierarchical_tree_structures/Activités_Arbres.ipynb)
+
+## Méthode « diviser pour régner »
+[ActiviteIntro_DiviserPourRegner.ipynb](./Divide_and_Conquer/ActiviteIntro_DiviserPourRegner.ipynb)
+[Activites_DiviserPourRegner.ipynb](./Divide_and_Conquer/Activites_DiviserPourRegner.ipynb)
