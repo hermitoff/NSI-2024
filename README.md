@@ -66,3 +66,6 @@ Dépos de Élodie GIMENEZ en T04
 ## Méthode « diviser pour régner »
 [ActiviteIntro_DiviserPourRegner.ipynb](./Divide_and_Conquer/ActiviteIntro_DiviserPourRegner.ipynb)
 [Activites_DiviserPourRegner.ipynb](./Divide_and_Conquer/Activites_DiviserPourRegner.ipynb)
+
+## Simulation réseau
+[devoir.md](./Network_Simulation/devoir.md)
